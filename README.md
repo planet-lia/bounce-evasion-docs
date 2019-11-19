@@ -1,4 +1,5 @@
 # Planet Lia Bounce Evasion Docs
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a2e33de5-8739-4386-b738-06c863449a3c/deploy-status)](https://app.netlify.com/sites/bounce-evasion-docs-planetlia/deploys)
 
 The official Planet Lia Bounce Evasion documentation website.
 
