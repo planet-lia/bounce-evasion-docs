@@ -3,22 +3,22 @@ date: 2018-08-05T04:32:25+02:00
 title: Getting started
 ---
 
-Let's setup your Planet Lia environment for Planetization game.
+Let's setup your Planet Lia environment for Bounce Evasion game.
 
 ## 1. Download
 
 * **Download Planet Lia CLI** for your operating system and unzip it into a folder of your liking. The tool is portable so you don't need to install it.
-    * <a href="https://files.production.cloud.planetlia.com/games/planetization/1.0/windows/planet-lia.zip" target="_blank">Windows <i class="fas fa-download"></i></a>
-    * <a href="https://files.production.cloud.planetlia.com/games/planetization/1.0/linux/planet-lia.zip">Linux <i class="fas fa-download"></i></a>
-    * <a href="https://files.production.cloud.planetlia.com/games/planetization/1.0/macos/planet-lia.zip" target="_blank">macOS <i class="fas fa-download"></i></a>
-* <a href="https://java.com/en/" target="_blank">Install Java</a> on your system. Planetization game is written in Java and it needs it in order to run. On most system it is already installed.
+    * <a href="https://files.production.cloud.planetlia.com/games/bounce-evasion/1.0/windows/planet-lia.zip" target="_blank">Windows <i class="fas fa-download"></i></a>
+    * <a href="https://files.production.cloud.planetlia.com/games/bounce-evasion/1.0/linux/planet-lia.zip">Linux <i class="fas fa-download"></i></a>
+    * <a href="https://files.production.cloud.planetlia.com/games/bounce-evasion/1.0/macos/planet-lia.zip" target="_blank">macOS <i class="fas fa-download"></i></a>
+* <a href="https://java.com/en/" target="_blank">Install Java</a> on your system. Bounce Evasion game is written in Java and it needs it in order to run. On most system it is already installed.
 * <a href="/setup-programming-language/" target="_blank">Setup programming language</a> that you will use for writing your bot. 
 If you have used the language before, you most likely already have everything that you need.
 
 ## 2. Play a game
 
 Open up a **Cmd.exe** or **PowerShell.exe** on Windows or a **Terminal** on Linux or macOS, **move to the unzipped Planet Lia CLI** directory and run the commands below. 
-First we will download a Planetization game and set it as our default game.
+First we will download the Bounce Evasion game and set it as our default game.
 Then we will create a new starting bot `john` using programming language Java and will battle it against itself. 
 To choose a different language for your bot simply replace the ```java``` part of the first command with ```python3``` or ```kotlin```.
 The first time you play a match with your bot it may take some time as a couple of libraries need to be downloaded, later runs will be much faster.
@@ -33,8 +33,8 @@ The first time you play a match with your bot it may take some time as a couple 
 
 <div id="Cmd" class="tabcontent cc1" style="display: block;">
 {{< highlight cmd >}}
-lia.exe game download planetization
-lia.exe game set planetization
+lia.exe game download bounce-evasion
+lia.exe game set bounce-evasion
 lia.exe bot new java john
 lia.exe play john john
 {{< /highlight >}}
@@ -42,8 +42,8 @@ lia.exe play john john
 
 <div id="PowerShell" class="tabcontent cc1">
 {{< highlight powershell >}}
-.\lia.exe game download planetization
-.\lia.exe game set planetization
+.\lia.exe game download bounce-evasion
+.\lia.exe game set bounce-evasion
 .\lia.exe bot new java john
 .\lia.exe play john john
 {{< /highlight >}}
@@ -51,8 +51,8 @@ lia.exe play john john
 
 <div id="Terminal" class="tabcontent cc1">
 {{< highlight bash >}}
-./lia game download planetization
-./lia game set planetization
+./lia game download bounce-evasion
+./lia game set bounce-evasion
 ./lia bot new java john
 ./lia play john john
 {{< /highlight >}}
