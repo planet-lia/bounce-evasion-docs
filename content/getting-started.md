@@ -66,31 +66,27 @@ This directory contains all the code for your bot. We will dig into it in the ne
 
 <br/><div style="text-align:center"><img src="/static/docs/images/game-example.png" alt="Example gameplay" width="80%"/></div>
 
-**Pro tip**: To speed up match generation, use `--skip-build` flag with `play` command. 
-This will avoid building both bots before a match and it can be used when you will want to generate many matches one after another.
 
 ## 3. Understand your bot
 
 With your favorite text editor open up your bot's main file. If you have created `Java` bot then open up `john/src/MyBot.java`, if `Python3` then `john/my_bot.py` and if `Kotlin` then `john/src/MyBot.kt`. 
 You can also open the whole bot directory (eg. `john`) in an IDE. Check <a href="/examples/using-ide/">Using an IDE</a> example to learn more.
 
-Starting bot implementation is very simple. Its now your goal to improve it.
-
 **Read through the code to see how it works! If you need help, check out our <a href="/api">API</a>.**
 
 Note that during the development you can structure your bot directory as you like, as long as the `MyBot` file acts as your "main" file.
 This means that you can create additional files which you then import into `MyBot`.
-
- To delete a bot, simply delete it's directory, in our case the directory named `john`.
+To delete a bot, simply delete it's directory, in our case the directory named `john`.
 
 ## 4. Debug your bot
 
 A more detail guide on how to debug your bot using a step debugger integrated into your favourite IDE, is available [here](/examples/debugging-your-code).
 
-Now we will only note that if you use `-d` flag with `play` command (eg. `lia.exe play -d john john`), you can **get a very useful debug view** while the match is generating, as shown below. 
+Note if you use the `-d` flag with `play` command (eg. `lia.exe play -d john john`), you can **get a very useful debug view** while the match is generating, as shown below. 
 It will let you to pause the match generation, step through it, view details of game entities, API calls and more. 
 
 <br/><div style="text-align:center"><img src="/static/docs/images/debug-viewer.png" alt="Debug viewer" width="80%"/></div>
+
 
 ## 5. Generate many matches at once
 
