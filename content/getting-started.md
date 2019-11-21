@@ -92,6 +92,39 @@ It will let you to pause the match generation, step through it, view details of 
 
 <br/><div style="text-align:center"><img src="/static/docs/images/debug-viewer.png" alt="Debug viewer" width="80%"/></div>
 
+## 5. Generate many matches at once
+
+You can generate multiple matches using `-n` flag with `play` command as shown below. 
+By providing a number after `-n` flag you can specify how many matches you want to generate.
+This is really useful for comparing quality of two bots as the end result also prints out the number of times each bot has won.
+
+{{< multilang >}}
+
+<div class="tab">
+    <button class="tablinks tc2 active" onclick="changeLanguage(event, 'Cmd2', 'tc2', 'cc2')">Windows cmd</button>
+    <button class="tablinks tc2" onclick="changeLanguage(event, 'PowerShell2', 'tc2', 'cc2')">Windows PowerShell</button>
+    <button class="tablinks tc2" onclick="changeLanguage(event, 'Terminal2', 'tc2', 'cc2')">Linux/macOS</button>
+</div>
+
+<div id="Cmd2" class="tabcontent cc2" style="display: block;">
+{{< highlight cmd >}}
+lia.exe play -n 20 john john
+{{< /highlight >}}
+</div>
+
+<div id="PowerShell2" class="tabcontent cc2">
+{{< highlight powershell >}}
+.\lia.exe play -n 20 john john
+{{< /highlight >}}
+</div>
+
+<div id="Terminal2" class="tabcontent cc2">
+{{< highlight bash >}}
+./lia play -n 20 john john
+{{< /highlight >}}
+</div>
+
+
 
 ## Next up
 
