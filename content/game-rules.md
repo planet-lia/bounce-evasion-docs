@@ -8,6 +8,7 @@ title: Game Rules
 Your goal is to write a bot that moves a single unit around the map in order to collect as many resources as possible.
 If the unit falls of the map it dies. 
 Each time it gets hit by a flying saw it looses one of its 3 lives. 
+If 100 seconds elapses without the unit picking up a single coin, it automatically dies.
 Once it looses all of its lives it also dies.
 Every 11 seconds a new pair of saws spawn which levels up the difficulty.
 
